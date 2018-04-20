@@ -1,3 +1,5 @@
+
+
 <h1>Quiz on Important Math</h1>
 <div class="quiz-container">
   <div id="quiz"></div>
@@ -13,7 +15,7 @@
 (function quiz() {
   const myQuestions = [
 	{
-	  question: "1.What equation should be used to verticaly move the line up 2 *graph 1*",
+	  question: "1. What equation should be used to verticaly move the line up 2 *graph 1*",
 	  answers: {
 		a: "√(x)+2",
 		b: "√(x)-2",
@@ -33,22 +35,22 @@
 	  correctAnswer: "b"
 	},
 	{
-	  question: "3. Simplify √x^16 x y^4/ y^4",
+	  question: "3. Simplify √x^16 x y^4",
 	  answers: {
 		a: "1",
-		b: "x^4",
-		c: "y^4",
+		b: "x^4 x y^2",
+		c: "xy^6",
 		d: "All of the above"
 	  },
-	  correctAnswer: "b"
+	  correctAnswer: "c"
 	},
 	{
-	  question: "4. Simplify √(x^2+y^4+9)",
+	  question: "4. Simplify √27x^3y^4",
 	  answers: {
-		a: "x+y^2-3",
-		b: "y^2+x+3",
-		c: "x^2+y-3",
-		d: "x^2+y+3"
+		a: "3xy√3xy^2",
+		b: "3xy^2√3x",
+		c: "xy√27x",
+		d: "xy^2√27x"
 	  },
 	  correctAnswer: "b"
 	},
@@ -143,7 +145,7 @@
 function explanation(){
 if (window.confirm('click "Ok" for explanations.')) 
 {
-window.location.href= 'https://Ethans-Group.github.io/Explanations.html';
+window.location.href='https://Ethans-Group.github.io/Explanations.html';
 };
 }
 
@@ -266,10 +268,9 @@ button{
 	color: #fff;
 	border: 0px;
 	border-radius: 5px;
-	padding: 25px;
+	padding: 15px;
 	cursor: pointer;
 	margin-bottom: 50px;
-	margin-top: 20px;
 }
 button:hover{
 	background-color: green;
